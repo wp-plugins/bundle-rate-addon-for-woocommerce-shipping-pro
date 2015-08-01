@@ -19,7 +19,6 @@ This plugin is an add-on for Shipping Pro Plugin and does not work independently
 = Cases handled by Bundle Rate AddOn =
 
 <ul>
-<li>When a customer buys more than one book, shipping cost of first unit should be $5 and for each additional unit shipping cost should be $2</li>
 <li>If a customer buys accessories along with a furniture, the furniture and accessories are shipped in the same truck. In this case customer need to be charged the shipping cost of furniture only.</li>
 <li>This item ships free with another item.</li>
 <li>If a customer adds gift items to the cart and they are also purchasing a gift basket, then just charge the gift basket shipping (it means free shipping for all of the gift items).</li>
