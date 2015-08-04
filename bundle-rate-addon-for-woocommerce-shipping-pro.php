@@ -94,4 +94,10 @@ class wf_bundle_rate_addon_setup {
 	}
 }
 
+if (!function_exists('wf_get_settings_url')){
+	function wf_get_settings_url(){
+		return version_compare(WC()->version, '2.1', '>=') ? "wc-settings" : "woocommerce_settings";
+	}
+}
+	
 new wf_bundle_rate_addon_setup();
