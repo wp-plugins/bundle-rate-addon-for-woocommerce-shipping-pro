@@ -1,5 +1,5 @@
 === Bundle Rate AddOn for WooCommerce Shipping Pro ===
-Contributors: DaZ_008
+Contributors: WooForce
 Donate link: 
 Tags: Bundle Rate, Bulk Rate, Shipping rates, shipping method, calculator, Shipping, WooCommerce
 Requires at least: 3.0.1
