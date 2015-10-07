@@ -4,7 +4,7 @@ Donate link:
 Tags: Bundle Rate, Bulk Rate, Shipping rates, shipping method, calculator, Shipping, WooCommerce
 Requires at least: 3.0.1
 Tested up to: 4.2.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,10 +110,14 @@ You can enable debug in settings and debug messages will start showing up in car
 2. Checkout Screen
 
 == Changelog ==
-= 1.0 =
+= 1.0.1 =
+ * BugFix: Resolved the issue to not solving the settings in woocommerce 2.4  
+= 1.0.0 =
  * Configure Bundle/Bulk Shipping Rates
 
 
 == Upgrade Notice ==
-= 1.0 =
+= 1.0.1 =
+Minor release
+= 1.0.0 =
 Initial release

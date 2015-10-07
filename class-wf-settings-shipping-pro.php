@@ -75,14 +75,9 @@ class WF_Settings_Page {
 
 		$settings = $this->get_settings();
 		
-		if(!isset($_POST[ 'wf_add_on_matrix']) || empty($_POST[ 'wf_add_on_matrix'])){
-			delete_option( 'wf_add_on_matrix');
-		}
+		update_option( 'wf_add_on_matrix', isset( $_POST[ 'wf_add_on_matrix']) ? $_POST[ 'wf_add_on_matrix'] : null );
+		update_option( 'wf_add_on_enabled', !isset( $_POST[ 'wf_add_on_enabled'] ) ? 'no' : 'yes' );
 		
-		
-		
-		WC_Admin_Settings::save_fields( $settings );
-
 		if ( $current_section ) {
 			do_action( 'woocommerce_update_options_' . $this->id . '_' . $current_section );
 		}

@@ -3,7 +3,7 @@
 	Plugin Name: Bundle Rate AddOn For WooCommerce Shipping Pro  
 	Plugin URI: http://www.wooforce.com
 	Description: AddOn plugin for WooCommerce Shipping Pro. Designed to handle complex bundling. Can configure Free shipping for certain shipping class if another set of shipping class available in the cart.
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
